@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BB9DC5D61947A975D77EFDA /* Pods_DocFind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CA0477DAF8372AE6CABFD7 /* Pods_DocFind.framework */; };
+		55E506CE3BF55F5ADB622B3F /* Pods_DocFind_DocFindUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC83ED9731F48BC2BF14C79 /* Pods_DocFind_DocFindUITests.framework */; };
+		7206EAF427681BF2005BF73B /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7206EAF327681BF2005BF73B /* LandingPage.swift */; };
 		720918172767D9FF00C5C3AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720918162767D9FF00C5C3AF /* AppDelegate.swift */; };
 		720918192767D9FF00C5C3AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720918182767D9FF00C5C3AF /* SceneDelegate.swift */; };
 		7209181B2767D9FF00C5C3AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7209181A2767D9FF00C5C3AF /* ViewController.swift */; };
@@ -15,6 +18,12 @@
 		720918232767DA0400C5C3AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720918212767DA0400C5C3AF /* LaunchScreen.storyboard */; };
 		7209182E2767DA0400C5C3AF /* DocFindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7209182D2767DA0400C5C3AF /* DocFindTests.swift */; };
 		720918392767DA0400C5C3AF /* DocFindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720918382767DA0400C5C3AF /* DocFindUITests.swift */; };
+		729356FD2769D71600C1A500 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729356FC2769D71600C1A500 /* SignInVC.swift */; };
+		72E48C38276A796000042A88 /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E48C37276A796000042A88 /* models.swift */; };
+		72E48C3A276A881200042A88 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E48C39276A881200042A88 /* SignUp.swift */; };
+		72E48C3E276AD47B00042A88 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E48C3D276AD47B00042A88 /* HomePage.swift */; };
+		72E48C40276AF9E600042A88 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E48C3F276AF9E600042A88 /* SearchVC.swift */; };
+		AAC17EBE67778AF542B8F13C /* Pods_DocFindTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86200331313C12536FCB5390 /* Pods_DocFindTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EE36642BB8C0D8A3A7BA4E4 /* Pods-DocFind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocFind.release.xcconfig"; path = "Target Support Files/Pods-DocFind/Pods-DocFind.release.xcconfig"; sourceTree = "<group>"; };
+		30CA0477DAF8372AE6CABFD7 /* Pods_DocFind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DocFind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BAECFECC5AC69EDDB1773A /* Pods-DocFindTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocFindTests.release.xcconfig"; path = "Target Support Files/Pods-DocFindTests/Pods-DocFindTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C11FA6B3F32AE99FC7A3D6F /* Pods-DocFindTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocFindTests.debug.xcconfig"; path = "Target Support Files/Pods-DocFindTests/Pods-DocFindTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7206EAF327681BF2005BF73B /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
 		720918132767D9FF00C5C3AF /* DocFind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocFind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		720918162767D9FF00C5C3AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		720918182767D9FF00C5C3AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,16 @@
 		720918342767DA0400C5C3AF /* DocFindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocFindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		720918382767DA0400C5C3AF /* DocFindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocFindUITests.swift; sourceTree = "<group>"; };
 		7209183A2767DA0400C5C3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		729356FC2769D71600C1A500 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		72E48C37276A796000042A88 /* models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
+		72E48C39276A881200042A88 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		72E48C3D276AD47B00042A88 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		72E48C3F276AF9E600042A88 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		7EC83ED9731F48BC2BF14C79 /* Pods_DocFind_DocFindUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DocFind_DocFindUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86200331313C12536FCB5390 /* Pods_DocFindTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DocFindTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B048CDF75E67715A4B65084 /* Pods-DocFind-DocFindUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocFind-DocFindUITests.release.xcconfig"; path = "Target Support Files/Pods-DocFind-DocFindUITests/Pods-DocFind-DocFindUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D93C6497A6D6E8050583C723 /* Pods-DocFind-DocFindUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocFind-DocFindUITests.debug.xcconfig"; path = "Target Support Files/Pods-DocFind-DocFindUITests/Pods-DocFind-DocFindUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E86B3CD2839AF0A7DDDC1BD3 /* Pods-DocFind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocFind.debug.xcconfig"; path = "Target Support Files/Pods-DocFind/Pods-DocFind.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BB9DC5D61947A975D77EFDA /* Pods_DocFind.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAC17EBE67778AF542B8F13C /* Pods_DocFindTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +96,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55E506CE3BF55F5ADB622B3F /* Pods_DocFind_DocFindUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CF3ED16DE4DCD90828E85DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30CA0477DAF8372AE6CABFD7 /* Pods_DocFind.framework */,
+				7EC83ED9731F48BC2BF14C79 /* Pods_DocFind_DocFindUITests.framework */,
+				86200331313C12536FCB5390 /* Pods_DocFindTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7209180A2767D9FF00C5C3AF = {
 			isa = PBXGroup;
 			children = (
+				72E48C3F276AF9E600042A88 /* SearchVC.swift */,
+				72E48C3D276AD47B00042A88 /* HomePage.swift */,
+				72E48C39276A881200042A88 /* SignUp.swift */,
 				720918152767D9FF00C5C3AF /* DocFind */,
 				7209182C2767DA0400C5C3AF /* DocFindTests */,
 				720918372767DA0400C5C3AF /* DocFindUITests */,
 				720918142767D9FF00C5C3AF /* Products */,
+				E7F99AB97C31C684254B3BFE /* Pods */,
+				0CF3ED16DE4DCD90828E85DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +144,10 @@
 				720918162767D9FF00C5C3AF /* AppDelegate.swift */,
 				720918182767D9FF00C5C3AF /* SceneDelegate.swift */,
 				7209181A2767D9FF00C5C3AF /* ViewController.swift */,
+				7206EAF327681BF2005BF73B /* LandingPage.swift */,
 				7209181C2767D9FF00C5C3AF /* Main.storyboard */,
+				729356FC2769D71600C1A500 /* SignInVC.swift */,
+				72E48C37276A796000042A88 /* models.swift */,
 				7209181F2767DA0400C5C3AF /* Assets.xcassets */,
 				720918212767DA0400C5C3AF /* LaunchScreen.storyboard */,
 				720918242767DA0400C5C3AF /* Info.plist */,
@@ -128,6 +173,19 @@
 			path = DocFindUITests;
 			sourceTree = "<group>";
 		};
+		E7F99AB97C31C684254B3BFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E86B3CD2839AF0A7DDDC1BD3 /* Pods-DocFind.debug.xcconfig */,
+				1EE36642BB8C0D8A3A7BA4E4 /* Pods-DocFind.release.xcconfig */,
+				D93C6497A6D6E8050583C723 /* Pods-DocFind-DocFindUITests.debug.xcconfig */,
+				8B048CDF75E67715A4B65084 /* Pods-DocFind-DocFindUITests.release.xcconfig */,
+				6C11FA6B3F32AE99FC7A3D6F /* Pods-DocFindTests.debug.xcconfig */,
+				40BAECFECC5AC69EDDB1773A /* Pods-DocFindTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7209183D2767DA0400C5C3AF /* Build configuration list for PBXNativeTarget "DocFind" */;
 			buildPhases = (
+				4C72DAE0BAFB1D6A18C6E4F0 /* [CP] Check Pods Manifest.lock */,
 				7209180F2767D9FF00C5C3AF /* Sources */,
 				720918102767D9FF00C5C3AF /* Frameworks */,
 				720918112767D9FF00C5C3AF /* Resources */,
+				AF9878AA6D582E983E2FA0CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 720918402767DA0400C5C3AF /* Build configuration list for PBXNativeTarget "DocFindTests" */;
 			buildPhases = (
+				FDA7212B4CF9091CDE1D2A99 /* [CP] Check Pods Manifest.lock */,
 				720918252767DA0400C5C3AF /* Sources */,
 				720918262767DA0400C5C3AF /* Frameworks */,
 				720918272767DA0400C5C3AF /* Resources */,
@@ -170,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 720918432767DA0400C5C3AF /* Build configuration list for PBXNativeTarget "DocFindUITests" */;
 			buildPhases = (
+				67646F52B55564493B91516A /* [CP] Check Pods Manifest.lock */,
 				720918302767DA0400C5C3AF /* Sources */,
 				720918312767DA0400C5C3AF /* Frameworks */,
 				720918322767DA0400C5C3AF /* Resources */,
+				A2D0250DF157A4292D102501 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +316,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C72DAE0BAFB1D6A18C6E4F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DocFind-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67646F52B55564493B91516A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DocFind-DocFindUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2D0250DF157A4292D102501 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DocFind-DocFindUITests/Pods-DocFind-DocFindUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DocFind-DocFindUITests/Pods-DocFind-DocFindUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DocFind-DocFindUITests/Pods-DocFind-DocFindUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF9878AA6D582E983E2FA0CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DocFind/Pods-DocFind-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DocFind/Pods-DocFind-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DocFind/Pods-DocFind-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDA7212B4CF9091CDE1D2A99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DocFindTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7209180F2767D9FF00C5C3AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72E48C3A276A881200042A88 /* SignUp.swift in Sources */,
 				7209181B2767D9FF00C5C3AF /* ViewController.swift in Sources */,
+				72E48C38276A796000042A88 /* models.swift in Sources */,
+				72E48C40276AF9E600042A88 /* SearchVC.swift in Sources */,
 				720918172767D9FF00C5C3AF /* AppDelegate.swift in Sources */,
+				7206EAF427681BF2005BF73B /* LandingPage.swift in Sources */,
 				720918192767D9FF00C5C3AF /* SceneDelegate.swift in Sources */,
+				729356FD2769D71600C1A500 /* SignInVC.swift in Sources */,
+				72E48C3E276AD47B00042A88 /* HomePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +605,7 @@
 		};
 		7209183E2767DA0400C5C3AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E86B3CD2839AF0A7DDDC1BD3 /* Pods-DocFind.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +625,7 @@
 		};
 		7209183F2767DA0400C5C3AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EE36642BB8C0D8A3A7BA4E4 /* Pods-DocFind.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +645,7 @@
 		};
 		720918412767DA0400C5C3AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C11FA6B3F32AE99FC7A3D6F /* Pods-DocFindTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +668,7 @@
 		};
 		720918422767DA0400C5C3AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40BAECFECC5AC69EDDB1773A /* Pods-DocFindTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +691,7 @@
 		};
 		720918442767DA0400C5C3AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D93C6497A6D6E8050583C723 /* Pods-DocFind-DocFindUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +712,7 @@
 		};
 		720918452767DA0400C5C3AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B048CDF75E67715A4B65084 /* Pods-DocFind-DocFindUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

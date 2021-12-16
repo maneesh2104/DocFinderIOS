@@ -1,0 +1,6 @@
+framework module Pods_DocFindTests {
+  umbrella header "Pods-DocFindTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
