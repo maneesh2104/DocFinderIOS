@@ -57,10 +57,10 @@ class SignInVC:UIViewController, UITextFieldDelegate{
             activityIndicator.startAnimating()
             AF.request("https://prod.maneesh.me/v1/user/self", headers: [h]).authenticate(username: user ?? "", password: password ?? "").responseDecodable(of: signIn.self) { response in
                 switch response.result{
-                case .success :
+                case .success(let s) :
                     print("Sucess")
                     let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-                    
+                    users.append(User(user: user, pass: password))
                     let resultViewController = storyBoard.instantiateViewController(withIdentifier: "HomePageVC") as! HomePageVC
                     
                     self.navigationController?.pushViewController(resultViewController, animated: true)

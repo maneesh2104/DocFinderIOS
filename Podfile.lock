@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (5.5.0)
+  - GooglePlaces (6.0.0)
   - MaterialComponents (124.2.0):
     - MaterialComponents/ActionSheet (= 124.2.0)
     - "MaterialComponents/ActionSheet+Theming (= 124.2.0)"
@@ -651,6 +652,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - GooglePlaces
   - MaterialComponents
   - paper-onboarding
   - SCLAlertView
@@ -659,6 +661,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - GooglePlaces
     - MaterialComponents
     - MDFInternationalization
     - MDFTextAccessibility
@@ -670,6 +673,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  GooglePlaces: c97d96ae68594acb64035c9ca9f26fbfc1d23af1
   MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
   MDFInternationalization: d697c55307816222a55685c4ccb1044ffb030c12
   MDFTextAccessibility: f4bb4cc2194286651b59a215fdeaa0e05dc90ba5
@@ -679,6 +683,6 @@ SPEC CHECKSUMS:
   SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
   SkyFloatingLabelTextField: 79ddc40e4ad59707fedbb48d605417aee48bb78a
 
-PODFILE CHECKSUM: 83939a7ccdfe2709b6d988fb60c6910a5feb4146
+PODFILE CHECKSUM: 332473515022f1824ab12b36ae2b6bc90f819d5b
 
 COCOAPODS: 1.11.2

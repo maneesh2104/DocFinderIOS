@@ -23,6 +23,11 @@
 		72E48C3A276A881200042A88 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E48C39276A881200042A88 /* SignUp.swift */; };
 		72E48C3E276AD47B00042A88 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E48C3D276AD47B00042A88 /* HomePage.swift */; };
 		72E48C40276AF9E600042A88 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E48C3F276AF9E600042A88 /* SearchVC.swift */; };
+		72E48C42276BE28400042A88 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E48C41276BE28400042A88 /* ResultsViewController.swift */; };
+		72E48C44276BEBFE00042A88 /* GooglePlacesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E48C43276BEBFE00042A88 /* GooglePlacesManager.swift */; };
+		72FB08BC276D0A6A00D82037 /* DocResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FB08BB276D0A6A00D82037 /* DocResultsTableViewController.swift */; };
+		72FB08BE276D256100D82037 /* BookApptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FB08BD276D256100D82037 /* BookApptVC.swift */; };
+		72FB08C0276D5B2100D82037 /* ApptsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FB08BF276D5B2100D82037 /* ApptsController.swift */; };
 		AAC17EBE67778AF542B8F13C /* Pods_DocFindTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86200331313C12536FCB5390 /* Pods_DocFindTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +73,11 @@
 		72E48C39276A881200042A88 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		72E48C3D276AD47B00042A88 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		72E48C3F276AF9E600042A88 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		72E48C41276BE28400042A88 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		72E48C43276BEBFE00042A88 /* GooglePlacesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesManager.swift; sourceTree = "<group>"; };
+		72FB08BB276D0A6A00D82037 /* DocResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocResultsTableViewController.swift; sourceTree = "<group>"; };
+		72FB08BD276D256100D82037 /* BookApptVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookApptVC.swift; sourceTree = SOURCE_ROOT; };
+		72FB08BF276D5B2100D82037 /* ApptsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApptsController.swift; sourceTree = "<group>"; };
 		7EC83ED9731F48BC2BF14C79 /* Pods_DocFind_DocFindUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DocFind_DocFindUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86200331313C12536FCB5390 /* Pods_DocFindTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DocFindTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B048CDF75E67715A4B65084 /* Pods-DocFind-DocFindUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocFind-DocFindUITests.release.xcconfig"; path = "Target Support Files/Pods-DocFind-DocFindUITests/Pods-DocFind-DocFindUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,6 +151,7 @@
 		720918152767D9FF00C5C3AF /* DocFind */ = {
 			isa = PBXGroup;
 			children = (
+				72FB08BD276D256100D82037 /* BookApptVC.swift */,
 				720918162767D9FF00C5C3AF /* AppDelegate.swift */,
 				720918182767D9FF00C5C3AF /* SceneDelegate.swift */,
 				7209181A2767D9FF00C5C3AF /* ViewController.swift */,
@@ -151,6 +162,10 @@
 				7209181F2767DA0400C5C3AF /* Assets.xcassets */,
 				720918212767DA0400C5C3AF /* LaunchScreen.storyboard */,
 				720918242767DA0400C5C3AF /* Info.plist */,
+				72E48C41276BE28400042A88 /* ResultsViewController.swift */,
+				72E48C43276BEBFE00042A88 /* GooglePlacesManager.swift */,
+				72FB08BB276D0A6A00D82037 /* DocResultsTableViewController.swift */,
+				72FB08BF276D5B2100D82037 /* ApptsController.swift */,
 			);
 			path = DocFind;
 			sourceTree = "<group>";
@@ -198,6 +213,7 @@
 				720918102767D9FF00C5C3AF /* Frameworks */,
 				720918112767D9FF00C5C3AF /* Resources */,
 				AF9878AA6D582E983E2FA0CE /* [CP] Embed Pods Frameworks */,
+				E886585C03C4E15BE2DF9126 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +252,7 @@
 				720918312767DA0400C5C3AF /* Frameworks */,
 				720918322767DA0400C5C3AF /* Resources */,
 				A2D0250DF157A4292D102501 /* [CP] Embed Pods Frameworks */,
+				FCECB68A67DCB85B3051519D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -395,6 +412,40 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DocFind/Pods-DocFind-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E886585C03C4E15BE2DF9126 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DocFind/Pods-DocFind-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DocFind/Pods-DocFind-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DocFind/Pods-DocFind-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCECB68A67DCB85B3051519D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DocFind-DocFindUITests/Pods-DocFind-DocFindUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DocFind-DocFindUITests/Pods-DocFind-DocFindUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DocFind-DocFindUITests/Pods-DocFind-DocFindUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FDA7212B4CF9091CDE1D2A99 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -425,8 +476,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				72E48C3A276A881200042A88 /* SignUp.swift in Sources */,
+				72E48C44276BEBFE00042A88 /* GooglePlacesManager.swift in Sources */,
+				72FB08C0276D5B2100D82037 /* ApptsController.swift in Sources */,
 				7209181B2767D9FF00C5C3AF /* ViewController.swift in Sources */,
 				72E48C38276A796000042A88 /* models.swift in Sources */,
+				72E48C42276BE28400042A88 /* ResultsViewController.swift in Sources */,
+				72FB08BC276D0A6A00D82037 /* DocResultsTableViewController.swift in Sources */,
+				72FB08BE276D256100D82037 /* BookApptVC.swift in Sources */,
 				72E48C40276AF9E600042A88 /* SearchVC.swift in Sources */,
 				720918172767D9FF00C5C3AF /* AppDelegate.swift in Sources */,
 				7206EAF427681BF2005BF73B /* LandingPage.swift in Sources */,

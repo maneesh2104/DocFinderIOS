@@ -11,6 +11,7 @@ target 'DocFind' do
   pod 'SCLAlertView'
   pod 'SkyFloatingLabelTextField'
   pod 'Alamofire'
+  pod 'GooglePlaces'
   target 'DocFindTests' do
     inherit! :search_paths
     # Pods for testing
